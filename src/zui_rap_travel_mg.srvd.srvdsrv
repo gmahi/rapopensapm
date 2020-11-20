@@ -2,7 +2,7 @@
 define service ZUI_RAP_Travel_MG {
   expose ZC_RAP_Travel_MG as Travel;
   expose ZC_RAP_Booking_MG as Booking;
-  expose /DMO/I_Agency as Agency;
+  expose ZCE_RAP_AGENCY_MG as Agency;
   expose /DMO/I_Customer as Customer;
   expose /DMO/I_Flight as Flight;
   expose /DMO/I_Carrier as Carrier;

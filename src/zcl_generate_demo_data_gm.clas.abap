@@ -12,7 +12,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_generate_demo_data_gm IMPLEMENTATION.
+CLASS ZCL_GENERATE_DEMO_DATA_GM IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 
     " delete existing entries in the database table
@@ -73,7 +75,4 @@ CLASS zcl_generate_demo_data_gm IMPLEMENTATION.
 
     out->write( 'Travel and booking demo data inserted.' ).
   ENDMETHOD.
-
 ENDCLASS.
-
-

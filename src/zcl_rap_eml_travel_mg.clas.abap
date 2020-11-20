@@ -12,7 +12,9 @@ ENDCLASS.
 
 
 
-CLASS zcl_rap_eml_travel_mg IMPLEMENTATION.
+CLASS ZCL_RAP_EML_TRAVEL_MG IMPLEMENTATION.
+
+
   METHOD if_oo_adt_classrun~main.
 *   " step 1 - READ
 *    READ ENTITIES OF ZI_RAP_Travel_MG
@@ -123,5 +125,4 @@ CLASS zcl_rap_eml_travel_mg IMPLEMENTATION.
 
 
   ENDMETHOD.
-
 ENDCLASS.
